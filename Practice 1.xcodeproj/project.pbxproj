@@ -14,6 +14,8 @@
 		895486491E08663800E896E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895486471E08663800E896E7 /* LaunchScreen.storyboard */; };
 		895486541E08663800E896E7 /* Practice_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895486531E08663800E896E7 /* Practice_1Tests.swift */; };
 		8954865F1E08663800E896E7 /* Practice_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8954865E1E08663800E896E7 /* Practice_1UITests.swift */; };
+		8954866E1E0868D100E896E7 /* IMG_4799.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8954866D1E0868D100E896E7 /* IMG_4799.JPG */; };
+		895486701E086B2300E896E7 /* IMG_4803.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8954866F1E086B2300E896E7 /* IMG_4803.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8954865A1E08663800E896E7 /* Practice 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8954865E1E08663800E896E7 /* Practice_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_1UITests.swift; sourceTree = "<group>"; };
 		895486601E08663800E896E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8954866D1E0868D100E896E7 /* IMG_4799.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4799.JPG; sourceTree = "<group>"; };
+		8954866F1E086B2300E896E7 /* IMG_4803.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4803.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		8954863D1E08663800E896E7 /* Practice 1 */ = {
 			isa = PBXGroup;
 			children = (
+				8954866C1E0868B000E896E7 /* Pictures */,
 				8954863E1E08663800E896E7 /* AppDelegate.swift */,
 				895486401E08663800E896E7 /* ViewController.swift */,
 				895486421E08663800E896E7 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				895486601E08663800E896E7 /* Info.plist */,
 			);
 			path = "Practice 1UITests";
+			sourceTree = "<group>";
+		};
+		8954866C1E0868B000E896E7 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				8954866F1E086B2300E896E7 /* IMG_4803.JPG */,
+				8954866D1E0868D100E896E7 /* IMG_4799.JPG */,
+			);
+			name = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8954866E1E0868D100E896E7 /* IMG_4799.JPG in Resources */,
 				895486491E08663800E896E7 /* LaunchScreen.storyboard in Resources */,
+				895486701E086B2300E896E7 /* IMG_4803.JPG in Resources */,
 				895486461E08663800E896E7 /* Assets.xcassets in Resources */,
 				895486441E08663800E896E7 /* Main.storyboard in Resources */,
 			);
